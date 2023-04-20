@@ -1,2 +1,37 @@
 
-.thm_btn{}
+.thm_btn,
+.card_Btn {
+    border: 2px solid var(--red);
+    display: inline-block;
+    max-width: 168px;
+    width: 100%;
+    text-align: center;
+    background: var(--red);
+    border-radius: 15px;
+    margin: 0 auto;
+    padding: 7px 14px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 37px;
+    margin-top: 65px;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin: 20px auto 0;
+  }
+
+.thm_btn:hover, .card_Btn:hover {
+    background: none;
+    color: var(--red);
+}
+
+  .link {
+  color: var(--red);
+  text-transform: uppercase;
+  text-decoration: underline;
+  }
+
+.link:hover {
+    text-decoration: underline;
+}

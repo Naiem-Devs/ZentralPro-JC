@@ -1,0 +1,158 @@
+/*============ Area Start =============*/
+
+.int_hero-Area {text-align: center;background: #2B2A36;height: 500px;border-radius: 0px 0px 24px 24px;}
+
+.int_hero-Area .container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+}
+.row {
+}
+.col-lg-12 {
+}
+.int_hero_content {
+}
+
+.int_hero_content h3 {
+    font-size: 30px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.int_hero_content h3 a {
+    text-decoration: underline;
+}
+
+.int_hero_content h1 {
+    color: #fff;
+    margin: 20px 0 30px;
+}
+.hero_title {
+}
+/*============ Area End =============*/
+
+/*============ Area Start =============*/
+
+.rule-Area {
+}
+
+.rule-Area .row {}
+.col-lg-6 {
+}
+.rule_text {
+}
+
+.rule_text h1 {
+    margin-bottom: 16px;
+}
+
+.rule_text ul {
+    margin: 20px 0;
+}
+
+.rule_text ul li {
+    font-family: 'Montserrat';
+    padding-left: 30px;
+    position: relative;
+}
+
+.rule_text ul li:after {
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    background: #EA5165;
+    border-radius: 50%;
+    left: 0;
+    top: 8px;
+}
+.thm_btn {
+}
+.img_blk {border-radius: 15px;overflow: hidden;}
+
+.img_blk {}
+/*============ Area End =============*/
+
+/*============ Area Start =============*/
+
+.GitOps-area {background: #F4F4FE;}
+.GitOps_text {padding-left: 100px;}
+
+.GitOps_text p a {
+    text-decoration: underline;
+}
+/*============ Area End =============*/
+
+/*============ Area Start =============*/
+
+.cnt-area {
+}
+.cnt_text {
+}
+
+.cnt_text p a {
+    text-decoration: underline;
+}
+/*============ Area End =============*/
+
+/*============ Area Start =============*/
+.Santa-Area .sec_title {max-width: 1000px;margin-inline: auto;margin-bottom: 60px;}
+
+.Santa-Area {}
+.sec_title {
+}
+.col-lg-4 {
+}
+.Santa_blk {text-align: center;max-width: 330px;}
+
+.Santa_blk h4 {
+    margin: 32px 0 20px;
+    text-transform: uppercase;
+}
+
+.Santa_blk i {
+    max-width: 100px;
+    display: flex;
+    margin-inline: auto;
+}
+
+.Santa_wrp {
+    display: flex;
+    justify-content: space-between;
+}
+/*============ Area End =============*/
+
+/*============ Area Start =============*/
+.nice-area {height: 550px;}
+
+.nice-area .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+}
+.nice_content {
+}
+
+.nice_content a.thm_btn {
+    background: #FFFFFF;
+    border-radius: 24px;
+    color: var(--red);
+}
+
+.nice_content h3 {
+    font-size: 30px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.nice_content h1 {
+    color: #fff;
+}
+/*============ Area End =============*/
+

@@ -1,28 +1,454 @@
 /* Big screen :1200px. */
 @media (min-width: 1200px) and (max-width: 1500px) {
-
+    .Integration_slider {
+        padding-right: 27px;
+    }
+    
+    .Integration_slider .owl-next {
+        right: 0;
+    }
+    .hero_section h2 {
+        font-size: 48px;
+    }
+    
+    .price_hero__text {
+        max-width: 900px;
+    }
 
 }
 
 
 /* Normal screen :992px. */
 @media (min-width: 992px) and (max-width: 1200px) {
-
-
+    .mega_menu {
+        margin-top: -600px;
+    }
+    .Integration_slider {
+        padding-right: 27px;
+    }
+    
+    .Integration_slider .owl-next {
+        right: 0;
+    }
+    .hero_content h1, .hero_title {
+        font-size: 50px;
+    }
+    
+    .hero_content h3 {
+        font-size: 24px;
+    }
+    .control_text {
+        padding-left: 20px;
+    }
+    .blog_item {
+        margin-inline: auto;
+        margin-bottom: 30px;
+    }
+    
+    .blog_title {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    
+    h1 {
+        height: 36px;
+    }
+    .card-header h2 {
+        font-size: 30px;
+        padding: 20px 0;
+    }
+    
+    .card_Btn {
+        margin-top: 40px;
+    }
 }
 
  
 /* Tablet screen :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
+    .header-area {
+        padding: 15px 0;
+    }
+    .Integration_slider {
+        padding-right: 27px;
+    }
+    
+    .Integration_slider .owl-next {
+        right: 0;
+    }
+    .hero_content h1, .hero_title {
+        font-size: 40px;
+        display: inline-block;
+    }
+    
+    .hero_content h3 {
+        font-size: 20px;
+        max-width: 700px;
+        margin-inline: auto;
+    }
+    .control_text {
+        padding-left: 20px;
+    }
+    .blog_item {
+        margin-inline: auto;
+        margin-bottom: 30px;
+    }
+    
+    .blog_title {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    
+    h1 {
+        font-size: 36px;
+        width: 100%;
+    }
+    .about_img {
+        margin-top: 30px;
+    }
 
+    .img_blk {
+        max-width: 500px;
+        margin-inline: auto;
+    }
+    
+    .excellence_text,.control_text {
+        max-width: 500px;
+        margin-inline: auto;
+        margin-top: 40px;
+    }
+    
+    .excellence-Area .row {
+        flex-direction: column-reverse;
+    }
+
+    .rule-Area .row {
+        max-width: 500px;
+        flex-direction: column-reverse;
+        margin-inline: auto;
+    }
+    
+    .rule-Area .img_blk {
+        margin-bottom: 30px;
+    }
+    
+    .GitOps_text {
+        margin-top: 30px;
+        max-width: 500px;
+        padding: 0;
+        margin-inline: auto;
+    }
+    
+    .cnt-area .row {
+        flex-direction: column-reverse;
+        max-width: 500px;
+        margin-inline: auto;
+    }
+    
+    .cnt_text {
+        margin-top: 30px;
+    }
+    
+    .Santa_blk {
+        max-width: 215px;
+    }
+    
+    .Santa_blk p {
+        font-size: 16px;
+    }
+    
+    .nice-area {
+        height: 400px;
+    }
+    .footer_nav a {
+        font-size: 18px;
+    }
+    
+    .footer_nav ul li {
+        margin-bottom: 5px;
+    }
+    
+    .footer_nav {
+        margin-bottom: 20px;
+    }
+    .table_wrp table {
+        min-width: 900px;
+    }
+    
+    .table_wrp {
+        overflow: auto;
+    }
 
 }
 
  
 /* small screen :320px. */
 @media (max-width: 767px) {
+    body{
+        font-size: 16px;
+    }
+    .header-area {
+        padding: 15px 0;
+    }
+    .Integration_slider {
+        padding-right: 0;
+    }
+    
+    .Integration_slider .owl-next {
+        right: 0;
+        display: none;
+    }
+    .hero_content h1, .hero_title {
+        font-size: 35px;
+        display: inline-block;
+    }
+    
+    .hero_content h3 {
+        font-size: 20px;
+        max-width: 700px;
+        margin-inline: auto;
+    }
+    .control_text {
+        padding-left: 20px;
+    }
+    .blog_item {
+        margin-inline: auto;
+        margin-bottom: 30px;
+        flex-direction: column;
+        max-width: 350px;
+    }
 
- 
+.blog_text {
+    margin: 20px;
+    padding: 0;
+}
+    
+    .blog_title {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    
+    h1 {
+        font-size: 32px;
+        width: 100%;
+    }
+    .about_img {
+    text-align: center;
+    }
+
+.about-content {
+    padding-bottom: 0 !important;
+}
+
+.about_img img {
+    display: none;
+}
+
+.about_img img {display: none;}
+
+img {}
+
+img.Artboard-mb {
+    display: block !important;
+    margin: auto;
+}
+
+    .img_blk {
+        max-width: 500px;
+        margin-inline: auto;
+    }
+    
+    .excellence_text,.control_text {
+        max-width: 500px;
+        margin-inline: auto;
+        margin-top: 40px;
+    }
+    
+    .excellence-Area .row {
+        flex-direction: column-reverse;
+    }
+    .blog_item i {
+        width: 100%;
+    }
+    
+    .blog_item i img {
+        width: 100%;
+    }
+    .footer_nav {
+        margin-bottom: 30px;
+    }
+    
+    .footer_nav a {
+        font-size: 16px;
+    }
+    
+    .footer_nav ul li {
+        margin-bottom: 5px;
+    }
+    .Integration_card {
+        max-width: 300px;
+        margin-inline: auto;
+    }
+    h4{
+    font-size: 18px;
+}
+.about_text {
+    padding: 0 20px;
+}
+.footer__btm {
+    margin-top: 15px;
+}
+
+.footer__btm p {
+    padding-top: 20px;
+}
+
+.footer-Area {
+    padding-bottom: 20px;
+}
+.hero_btn a {
+    margin-top: 0;
+}
+.sec_padding {
+    padding: 80px 0;
+}
+
+.mb_100 {
+    margin-bottom: 70px;
+}
+
+
+.rule-Area .row {
+    max-width: 500px;
+    flex-direction: column-reverse;
+    margin-inline: auto;
+}
+
+.rule-Area .img_blk {
+    margin-bottom: 30px;
+}
+
+.GitOps_text {
+    margin-top: 30px;
+    max-width: 500px;
+    padding: 0;
+    margin-inline: auto;
+}
+
+.cnt-area .row {
+    flex-direction: column-reverse;
+    max-width: 500px;
+    margin-inline: auto;
+}
+
+.cnt_text {
+    margin-top: 30px;
+}
+
+.Santa_blk {
+    max-width: 215px;
+    margin-inline: auto;
+    margin-bottom: 30px;
+}
+
+.Santa_blk p {
+    font-size: 16px;
+}
+
+.nice-area {
+    height: 400px;
+}
+.int_hero_content h3 {
+    font-size: 22px;
+}
+
+.int_hero-Area {
+    height: 400px;
+}
+
+.Santa_wrp {
+    flex-direction: column;
+}
+
+.Santa_blk i {
+    max-width: 70px;
+}
+
+.nice_content h3 {
+    font-size: 22px;
+}
+
+.nice_content h1 {
+    font-size: 28px;
+}
+#hero-section {
+    height: 300px;
+}
+.hero_section h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.hero_section p {
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.card-header h2 {
+    font-size: 28px;
+    padding: 15px 0;
+}
+
+.card {
+    margin-inline: auto;
+}
+
+.card-body-title h5 {
+    font-size: 18px;
+    margin: 20px auto;
+}
+
+.card-body-title p {
+}
+
+.card ul li {
+    font-size: 15px;
+}
+
+.card_Btn {
+    margin-top: 30px;
+}
+
+.table_section {
+}
+
+table tr th {
+    font-size: 18px;
+}
+
+.table_Header {
+    font-size: 28px;
+}
+.table_wrp table {
+    min-width: 900px;
+}
+
+.table_wrp {
+    overflow: auto;
+    /* min-width: 900px; */
+}
+.card-header h2 {
+    font-size: 24px;
+    padding: 10px 0;
+}
+
+.card_Btn {
+    margin-top: 40px;
+}
+.card-body-title {
+    height: auto;
+    margin-bottom: 30px;
+}
 }
  
 /* Large Mobile screen :480px. */
