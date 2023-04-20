@@ -33,7 +33,7 @@
 
 .about-Area {
 }
-.about-content {background: #F5F4FF;}
+.about-content {background: #F5F4FF;overflow: hidden;}
 .col-lg-6 {
 }
 .about_text {padding-left: 60px;}
@@ -83,8 +83,7 @@ img.Artboard-mb {display: none;}
 
 /*============excellence Area Start =============*/
 
-.excellence-Area {
-}
+.excellence-Area {overflow: hidden;}
 
 .excellence-Area .row, .rule-Area .row, .GitOps-area .row,.cnt-area .row {
     align-items: center;
@@ -107,7 +106,7 @@ img.Artboard-mb {display: none;}
 
 /*============control Area Start =============*/
 
-.control-Area {background: rgb(243 242 255 / 81%);}
+.control-Area {background: rgb(243 242 255 / 81%);overflow: hidden;}
 
 .code_box {
     background: #1B1B1B;
@@ -147,8 +146,7 @@ img.Artboard-mb {display: none;}
 
 /*============blog Area Start =============*/
 
-.blog-Area {
-}
+.blog-Area {overflow: hidden;}
 .blog_title {
 }
 .blog_item {background: #FAFAFA;border-radius: 15px;filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.25));display: flex;align-items: center;max-width: 700px;}

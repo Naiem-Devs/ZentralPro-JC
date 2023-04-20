@@ -37,6 +37,7 @@ section.contact_hero {
   background-repeat: no-repeat;
   background-position: center center;
   padding: 7.5rem 0;
+  overflow: hidden;
 }
 
 .contact_info {

@@ -37,8 +37,7 @@
 
 /*============ Area Start =============*/
 
-.rule-Area {
-}
+.rule-Area {overflow: hidden;}
 
 .rule-Area .row {}
 .col-lg-6 {
@@ -79,7 +78,7 @@
 
 /*============ Area Start =============*/
 
-.GitOps-area {background: #F4F4FE;}
+.GitOps-area {background: #F4F4FE;overflow: hidden;}
 .GitOps_text {padding-left: 100px;}
 
 .GitOps_text p a {
@@ -89,8 +88,7 @@
 
 /*============ Area Start =============*/
 
-.cnt-area {
-}
+.cnt-area {overflow: hidden;}
 .cnt_text {
 }
 
